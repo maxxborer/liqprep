@@ -1,8 +1,19 @@
-import React from 'react';
+import React, { PureComponent } from 'react';
 
-const Footer = () => (
-  <footer className="footer">
-    ***REMOVED***@ya.ru<br/>&copy; {new Date().getFullYear()} ***REMOVED*** Maxim
-  </footer>);
+class Footer extends PureComponent {
+  render() {
+    return (
+      <footer className="footer">
+      ***REMOVED***@ya.ru
+        <br />
+        &copy;
+        {' '}
+        {new Date().getFullYear()}
+        {' '}
+        ***REMOVED*** Maxim
+      </footer>
+    );
+  }
+}
 
 export default Footer;
