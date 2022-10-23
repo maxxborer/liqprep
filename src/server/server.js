@@ -38,7 +38,7 @@ app.use(cookieParser());
 app.use(session({
   resave: true,
   saveUninitialized: true,
-  secret: '***REMOVED***Liqprep',
+  secret: 'maxxborer-liqprep',
 }));
 
 routes(app);

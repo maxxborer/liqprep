@@ -4,13 +4,13 @@ class Footer extends PureComponent {
   render() {
     return (
       <footer className="footer">
-      ***REMOVED***@ya.ru
+        maxxborer@gmail.com
         <br />
         &copy;
         {' '}
         {new Date().getFullYear()}
         {' '}
-        ***REMOVED*** Maxim
+        Maxx Borer
       </footer>
     );
   }

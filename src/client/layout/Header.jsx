@@ -31,7 +31,7 @@ class Header extends PureComponent {
         <Collapse isOpen={isOpen} navbar>
           <Nav className="ml-auto" navbar>
             <NavItem>
-              <NavLink href="https://gitlab.com/***REMOVED***/liqprep" target="_blank">GitLab</NavLink>
+              <NavLink href="https://gitlab.com/maxxborer/liqprep" target="_blank">GitLab</NavLink>
             </NavItem>
           </Nav>
         </Collapse>
